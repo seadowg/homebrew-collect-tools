@@ -6,7 +6,7 @@ class CollectTools < Formula
   sha256 "a6c411ff5f1df8d68794d2f9af964dc241a0d29b8a76eae0d5f47fc7316d2757"
 
   def install
-    system "/usr/local/bin/brew", "cask", "install", "android-platform-tools"
+    system "/usr/local/bin/brew", "install", "android-platform-tools"
     system "mkdir", "#{prefix}/bin/"
     system "./install.sh", "#{prefix}/bin/"
   end
