@@ -1,4 +1,4 @@
-class Checkin < Formula
+class CollectTools < Formula
   desc "Tools for ODK Collect"
   homepage "https://github.com/seadowg/collect-tools"
   license "GPL-3.0-only"
