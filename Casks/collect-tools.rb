@@ -7,6 +7,8 @@ cask "collect-tools" do
     desc "Tools for ODK Collect"
     homepage "https://github.com/seadowg/collect-tools"
 
+    depends_on cask: "android-platform-tools"
+
     binary "#{staged_path}/cplayer"
 end
 
