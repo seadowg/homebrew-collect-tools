@@ -1,6 +1,6 @@
 cask "collect-tools" do
     version "0.3.0"
-    sha256 "a6c411ff5f1df8d68794d2f9af964dc241a0d29b8a76eae0d5f47fc7316d2757"
+    sha256 "d5da8cc46da613b7befd87ea06a71571bd9aef73e91476d7ec3db1ed02bc5361"
 
     url "https://github.com/seadowg/collect-tools/releases/download/0.3.0/collect-tools-0.3.0.zip"
     name "Collect Tools"
